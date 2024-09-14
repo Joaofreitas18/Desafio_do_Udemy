@@ -111,7 +111,7 @@ class Sistema:
                 print("Saindo do sistema...")  
                 break  
             else:  
-                print("Opção inválida.")  
+                print("Opção inválida.....")  
 
     def registrar_compra(self):  
         data = input("Data da compra (dd/mm/aaaa): ")  
@@ -146,7 +146,7 @@ class Sistema:
                 print("Produto não encontrado no estoque.")  
         venda = Venda(data, produtos)  
         self.vendas.append(venda)  
-        print("Venda registrada com sucesso!")  
+        print("Venda registrada com sucesso!!")  
 
     def listar_compras(self):  
         if self.compras:  
@@ -162,7 +162,7 @@ class Sistema:
                 print(venda)  
                 print("-" * 20)  
         else:  
-            print("Não há vendas registradas.")  
+            print("Não a vendas registradas.")  
 
 if __name__ == "__main__":  
     sistema = Sistema()  
